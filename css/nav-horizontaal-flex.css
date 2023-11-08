@@ -7,6 +7,13 @@ ul {
     display: flex;
     flex-direction: row;
     background-color: black;
+    flex-grow: 0 1 auto;
+    width: 100%;
+}
+
+li {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
 }
 
 a {
@@ -15,7 +22,7 @@ a {
     text-decoration: none;
     display: flex;
     padding: 15px;
-    border: 1px solid white;
+    height: 1em;
 }
 
 a:hover {
