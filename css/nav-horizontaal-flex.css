@@ -23,7 +23,7 @@ a {
     display: flex;
     padding: 15px;
     height: 1em; 
-    /* ander probleem dat je wit niet ziet bij hover  */
+    /* anders probleem dat je wit niet ziet bij hover  */
 }
 
 a:hover {
