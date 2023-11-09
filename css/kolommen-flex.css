@@ -1,3 +1,36 @@
 body {
     width: 1200px;
+    padding: 0;
+    margin: 0;
+    background-color: #e9e581;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-header {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    width:100%;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.container > section {
+    box-sizing: border-box;
+    padding: 10px 60px 20px 40px;
+    display: inline-flex;
+    gap: 30px;
+}
+
+article > img {
+    width: 100%;
+}
+
+.fw {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    padding: 10px 60px 20px 40px;
+    box-sizing: border-box;
+    border-radius: 3vmin;
 }
