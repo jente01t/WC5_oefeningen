@@ -18,7 +18,7 @@ body {
 .container > section {
     box-sizing: border-box;
     padding: 10px 40px 20px 40px;
-    display: inline-flex;
+    display: flex;
     gap: 30px;
     text-align: justify;
 }
@@ -30,7 +30,7 @@ article > img {
 .fw {
     width: 1120px;
     max-width: 100%;
-    display: inline-block;
+    display: block;
     margin: 10px 40px 20px 40px;
     box-sizing: border-box;
     border-radius: 40px 0 40px 0;
