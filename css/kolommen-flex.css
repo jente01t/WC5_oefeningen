@@ -17,9 +17,10 @@ body {
 
 .container > section {
     box-sizing: border-box;
-    padding: 10px 60px 20px 40px;
+    padding: 10px 40px 20px 40px;
     display: inline-flex;
     gap: 30px;
+    text-align: justify;
 }
 
 article > img {
@@ -27,10 +28,24 @@ article > img {
 }
 
 .fw {
-    width: 100%;
+    width: 1120px;
     max-width: 100%;
-    display: block;
-    padding: 10px 60px 20px 40px;
+    display: inline-block;
+    margin: 10px 40px 20px 40px;
     box-sizing: border-box;
-    border-radius: 3vmin;
+    border-radius: 40px 0 40px 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 1em 7em 1em 1em;
+    text-align: end;    
+}
+
+footer img {
+    width: 5%;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
 }
