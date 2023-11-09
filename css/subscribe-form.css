@@ -1,0 +1,43 @@
+body {
+    background-color: #eeefee;
+}
+
+.form-wrap {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    position: absolute;
+    left: -999999px;
+}
+
+input {
+    padding: 10px;
+    border: solid #c5d6da;
+}
+
+input:focus {
+    background-color: cornflowerblue;
+    border: solid cornflowerblue;
+}
+
+button {
+    padding: 10px;
+    background-color: #6395ee;
+    color: white;
+    border: solid #6395ee;
+}
+
+button:hover {
+    background-color: navy;
+    border: solid navy;
+}
+
+button:active {
+    background-color: navy;
+    border: solid navy;
+    font-weight: bold;
+}
