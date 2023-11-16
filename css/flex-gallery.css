@@ -8,6 +8,7 @@ ul {
 }
 
 li {
+    max-width: 100%;
     list-style: none;
     text-align: center;
     flex: 1 1 30%;
