@@ -4,7 +4,7 @@
 
 ul {
     display: flex;
-    max-width: 1200px;
+    max-width: 75rem;
     background-color: #efefef;
     flex-wrap: wrap;
     margin: 20px auto;
@@ -13,7 +13,7 @@ ul {
 
 li {
     list-style: none;
-    flex: 1 0 30%;
+    flex: 1 1 300px;
     margin: 5px;
     position: relative;
 }

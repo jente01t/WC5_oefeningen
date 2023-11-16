@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     width: 1200px;
     padding: 0;
@@ -12,11 +16,9 @@ body {
     padding: 40px;
     width:100%;
     font-size: 15px;
-    box-sizing: border-box;
 }
 
-.container > section {
-    box-sizing: border-box;
+.container section {
     padding: 10px 40px 20px 40px;
     display: flex;
     gap: 30px;
@@ -32,7 +34,6 @@ article > img {
     max-width: 100%;
     display: block;
     margin: 10px 40px 20px 40px;
-    box-sizing: border-box;
     border-radius: 40px 0 40px 0;
 }
 
