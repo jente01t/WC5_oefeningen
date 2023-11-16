@@ -35,6 +35,7 @@ button {
     background-color: #6395ee;
     color: white;
     border: solid #6395ee;
+    width: 8em;
 }
 
 button:hover {
@@ -47,4 +48,8 @@ button:active {
     background-color: navy;
     border: solid navy;
     font-weight: bold;
+}
+
+:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
 }
